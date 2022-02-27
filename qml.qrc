@@ -5,5 +5,6 @@
     <qresource prefix="/AnalogClockComponents">
         <file>AnalogClock.qml</file>
         <file>ClockHand.qml</file>
+        <file>ClockNumberText.qml</file>
     </qresource>
 </RCC>
