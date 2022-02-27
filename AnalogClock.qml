@@ -33,6 +33,8 @@ Rectangle
             width: clockRoot.width*0.1
             height: clockRoot.height*0.4
             angleRotate: equalWindowSizeRect.seconds * 360 / 60;   // 12 hours format
+            bgColorStart: "black"
+            bgColorEnd: "green"
         }
         ClockHand{
             id:minHand
