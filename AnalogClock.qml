@@ -7,7 +7,6 @@ Rectangle
     property real hours:0
     property real minutes:0
     property real seconds:0
-    onSecondsChanged:repeaterNumbers.allTimeNumbers = !repeaterNumbers.allTimeNumbers;
     color:"transparent"
     Rectangle {
         id:clockRoot
