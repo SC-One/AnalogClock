@@ -4,5 +4,6 @@
     </qresource>
     <qresource prefix="/AnalogClockComponents">
         <file>AnalogClock.qml</file>
+        <file>ClockHand.qml</file>
     </qresource>
 </RCC>
