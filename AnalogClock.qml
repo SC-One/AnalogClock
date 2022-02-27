@@ -7,6 +7,7 @@ Rectangle
     property real hours:0
     property real minutes:0
     property real seconds:0
+    onSecondsChanged:repeaterNumbers.allTimeNumbers = !repeaterNumbers.allTimeNumbers;
     color:"transparent"
     Rectangle {
         id:clockRoot
@@ -16,7 +17,9 @@ Rectangle
         anchors.centerIn: parent
         color:equalWindowSizeRect.clockBgColor
         NumberRepeater{
+            id:repeaterNumbers
             anchors.fill: parent
+            allTimeNumbers: true
         }
 
         QtObject
