@@ -6,5 +6,6 @@
         <file>AnalogClock.qml</file>
         <file>ClockHand.qml</file>
         <file>ClockNumberText.qml</file>
+        <file>NumberRepeater.qml</file>
     </qresource>
 </RCC>
