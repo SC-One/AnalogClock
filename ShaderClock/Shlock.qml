@@ -5,12 +5,13 @@ Rectangle {
     property real hours:0
     property real minutes:0
     property real seconds:0
-    ShaderEffect
-    {
+    ShaderEffect {
         id:rootShader
         anchors.fill: parent
         property var src;
         property real iGlobalTime: 0.0
+        property real iTickLength: 8
+        property real iRadius: width/2 - iTickLength
         property size u_Resolution: Qt.size(root.width,root.height)
         Timer {
             id:timer
