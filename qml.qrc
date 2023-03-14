@@ -1,6 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>ShaderClock/Shlock.qml</file>
+        <file>ShaderClock/ClockShader.fsh</file>
     </qresource>
     <qresource prefix="/AnalogClockComponents">
         <file>AnalogClock.qml</file>

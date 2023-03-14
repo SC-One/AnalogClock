@@ -1,7 +1,7 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Layouts 1.3
-import "qrc:/AnalogClockComponents" as Clock
+import "qrc:/ShaderClock/" as Clock
 
 Window {
     width: 450
@@ -23,7 +23,7 @@ Window {
             onTriggered: updateCurrentTime();
         }
 
-        Clock.AnalogClock {
+        Clock.Shlock{
             id:analogClockQML
             Layout.fillHeight: true
             Layout.fillWidth: true
